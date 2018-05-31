@@ -18,7 +18,7 @@ class Transfer
     if self.valid?
       @sender.balance-=@amount
       @receiver.balance+=@amount
-      @status="executed"
+      @status="complete"
     else
       "Your account is not valid"
     end
