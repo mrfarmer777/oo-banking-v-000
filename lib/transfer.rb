@@ -23,6 +23,6 @@ class Transfer
       "Your account is not valid"
     end
   end
-  
+
 
 end
